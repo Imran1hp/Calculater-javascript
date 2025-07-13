@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div>
+        <div class="layout-phone">
+
+            
+            <div class="gird-lay">
+                <input class="display" readonly>
+            <div class="orange-column">
+                <button onclick="buttonNum('/')">/</button>
+                <button onclick="buttonNum('*')">*</button>
+                <button onclick="buttonNum('-')" >-</button>
+                <button onclick="buttonNum('+')">+</button>
+                <button onclick="calculate()">=</button>
+             </div>    
+          
+        <div class="ash-row">
+            <button onclick="clearDisplay()">AC</button>
+            <button>+/-</button>
+            <button onclick="buttonNum('%')">%</button>
+           </div>
+        
+          <div class="gay-row">
+            <button class="seven-button"
+            onclick="buttonNum('7')">7</button>
+            <button class="eight-button"
+            onclick="buttonNum('8')">8</button>
+            <button class="nine-button"
+            onclick="buttonNum('9')">9</button>
+            <button class="four-button"
+            onclick="buttonNum('4')">4</button>
+            <button class="five-button"
+            onclick="buttonNum('5')">5</button>
+            <button class="six-button"
+            onclick="buttonNum('6')">6</button>
+            <button class="one-button"
+            onclick="buttonNum('1')">1</button>
+            <button class="two-button"
+            onclick="buttonNum('2')">2</button>
+            <button class="three-button"
+            onclick="buttonNum('3')">3</button>
+        </div>
+            
+         <div class="last-row">   
+            <button class="zero-button"
+            onclick="buttonNum('0')">0</button>
+            <button>.</button>
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="calcutate.js"></script>
+</html>
